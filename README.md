@@ -15,7 +15,6 @@
   ![GitHub stars](https://img.shields.io/github/stars/AshutoshDM1/Aivon)
   ![GitHub forks](https://img.shields.io/github/forks/AshutoshDM1/Aivon)
 
-  
 </div>
 
 ## Waitlist is Live Now
@@ -23,17 +22,20 @@
 ![img](https://res.cloudinary.com/dnvl8mqba/image/upload/v1748189773/Aivon/311c124a-b8ec-418a-8f69-7dc2cfc23791.png)
 
 ## Tech Stack
+
   <!-- Technology Stack Badges -->
-  ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
-  ![FastAPI](https://img.shields.io/badge/FastAPI-009485.svg?logo=fastapi&logoColor=white)
-  ![NestJS](https://img.shields.io/badge/Nest.js-%23E0234E.svg?logo=nestjs&logoColor=white)
-  ![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)
-  ![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff)
-  
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
+![FastAPI](https://img.shields.io/badge/FastAPI-009485.svg?logo=fastapi&logoColor=white)
+![NestJS](https://img.shields.io/badge/Nest.js-%23E0234E.svg?logo=nestjs&logoColor=white)
+![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff)
+
   <!-- Build & Deployment -->
-  ![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?logo=vercel&logoColor=white)
-  ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)
+
+![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)
 ![img](https://res.cloudinary.com/dnvl8mqba/image/upload/v1748098281/Aivon/Aivon_Tech_Stack_kv7s8m.png)
 
 ## New Learning

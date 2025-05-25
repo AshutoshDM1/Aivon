@@ -18,7 +18,7 @@ export default function Home() {
       <BackgroundLines className="absolute z-[10] overflow-hidden ">
         <SplineComponent />
         <div className="min-h-screen relative z-10 font-[monospace] px-2">
-          <div className="container mx-auto px-4 py-16">
+          <div className="container mx-auto px-4 pt-12 pb-4 sm:pb-14">
             <div className="max-w-4xl mx-auto text-center">
               <div className="mt-12">
                 <div className="flex items-center gap-1 justify-center">

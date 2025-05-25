@@ -8,7 +8,7 @@ const WaitlistCard = () => {
   };
   return (
     <>
-      <div className="bg-white dark:bg-zinc-800 rounded-2xl shadow-xl p-8 md:p-12 mt-[6rem] max-w-md mx-auto font-[system-ui]">
+      <div className="bg-white dark:bg-zinc-800 rounded-2xl shadow-xl p-8 md:p-12 sm:mt-[6rem] max-w-md mx-auto font-[system-ui]">
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
           Join the Waitlist
         </h2>

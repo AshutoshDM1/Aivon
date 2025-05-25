@@ -13,7 +13,7 @@ const SplineComponent = () => {
         transition={{ duration: 2, delay: 1 }}
       >
         <SplineNext
-          className="min-h-[100vh] w-full absolute top-[6vh] z-[10] overflow-hidden bg-transparent"
+          className="min-h-[100vh] w-full absolute top-[7vh] z-[10] overflow-hidden bg-transparent"
           scene="https://prod.spline.design/t-5elAm01l5a21r2/scene.splinecode"
         />
       </motion.div>
