@@ -4,7 +4,6 @@ const WaitlistCard = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const email = (e.target as HTMLFormElement).email.value;
-    console.log(email);
     sendWaitlistEmail(email);
   };
   return (

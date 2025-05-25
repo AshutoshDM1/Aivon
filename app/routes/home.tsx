@@ -2,7 +2,6 @@ import WaitlistCard from "~/components/Waitlist/WaitlistCard";
 import SplineComponent from "~/components/Waitlist/Spline";
 import { BackgroundLines } from "~/components/ui/background-lines";
 
-
 export function meta() {
   return [
     { title: "Aivon" },

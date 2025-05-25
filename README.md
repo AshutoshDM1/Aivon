@@ -1,89 +1,53 @@
+<div align="center">
+  
+  <img src="https://res.cloudinary.com/dnvl8mqba/image/upload/v1748190680/Aivon/favicon_gokg2c.png" alt="Aivon" width="50"/>
+  
+  # Aivon
+  
+  <p>Enchance Your Notes with AI</p>
+  
+[![wakatime](https://wakatime.com/badge/user/c34e365f-01c3-4480-a437-d477dc0aa67b/project/0e2660d1-6b8c-4c3f-9bad-bf717f2a0eb2.svg)](https://wakatime.com/badge/user/c34e365f-01c3-4480-a437-d477dc0aa67b/project/0e2660d1-6b8c-4c3f-9bad-bf717f2a0eb2)
+  ![License](https://img.shields.io/badge/license-MIT-blue)
+  ![Status](https://img.shields.io/badge/status-active-brightgreen)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/AshutoshDM1/Aivon)
+  ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/AshutoshDM1/Aivon)
+  ![GitHub contributors](https://img.shields.io/github/contributors/AshutoshDM1/Aivon)
+  ![GitHub stars](https://img.shields.io/github/stars/AshutoshDM1/Aivon)
+  ![GitHub forks](https://img.shields.io/github/forks/AshutoshDM1/Aivon)
+
+  
+</div>
+
+## Waitlist is Live Now
+
+![img](https://res.cloudinary.com/dnvl8mqba/image/upload/v1748189773/Aivon/311c124a-b8ec-418a-8f69-7dc2cfc23791.png)
+
+## Tech Stack
+  <!-- Technology Stack Badges -->
+  ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
+  ![FastAPI](https://img.shields.io/badge/FastAPI-009485.svg?logo=fastapi&logoColor=white)
+  ![NestJS](https://img.shields.io/badge/Nest.js-%23E0234E.svg?logo=nestjs&logoColor=white)
+  ![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)
+  ![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff)
+  
+  <!-- Build & Deployment -->
+  ![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?logo=vercel&logoColor=white)
+  ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)
 ![img](https://res.cloudinary.com/dnvl8mqba/image/upload/v1748098281/Aivon/Aivon_Tech_Stack_kv7s8m.png)
 
-# Welcome to React Router!
+## New Learning
 
-A modern, production-ready template for building full-stack React applications using React Router.
+- Python
+- FastAPI
+- NestJs
+- React Router v7 (File Based Routing)
+- Tailwind CSS V4
+- Drizzle ORM
+- Tanstack Query
+- Tap-Tap
+- Resend
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+![Alt](https://repobeats.axiom.co/api/embed/131fac466e4365f0de3c835419d6ae05560ca0b4.svg "Repobeats analytics image")
 
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+Built with ❤️ by [Ashutosh](https://elitedev.tech)
