@@ -23,14 +23,7 @@ export class AppController {
 
   @Post('/waitlist')
   @HttpCode(HttpStatus.OK)
-  getwait() {
-    return {
-      message: 'Waitlist',
-      status: 'success',
-      timestamp: new Date().toISOString(),
-    };
+  async sendWaitlistEmail(@Body() body: { email: string }): Promise<void> {
+    await this.waitlistService.sendWaitlistEmail(body.email);
   }
-  // async sendWaitlistEmail(@Body() body: { email: string }): Promise<void> {
-  //   await this.waitlistService.sendWaitlistEmail(body.email);
-  // }
 }

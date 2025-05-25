@@ -15,7 +15,7 @@ export const emailService = {
     try {
       console.log('Attempting to send confirmation email to:', userEmail);
       const response = await resend.emails.send({
-        from: 'Aivon <waitlist@aivon.tech>',
+        from: 'Aivon <avion@support.elitedev.tech>',
         to: userEmail,
         subject: 'Welcome to Aivon Waitlist! 🚀',
         html: `
@@ -85,7 +85,7 @@ export const emailService = {
 
               <!-- CTA Button -->
               <div style="text-align: center; margin: 35px 0;">
-                <a href="https://aivon.tech" 
+                <a href="https://aivon.vercel.app" 
                    style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 16px 32px; text-decoration: none; 
                           border-radius: 8px; display: inline-block; font-weight: 600; font-size: 16px; 
                           box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4); transition: all 0.3s ease;">
