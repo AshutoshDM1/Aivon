@@ -15,9 +15,9 @@ export function meta() {
 export default function Home() {
   return (
     <>
-      <BackgroundLines className="absolute z-[10] overflow-hidden">
+      <BackgroundLines className="absolute z-[10] overflow-hidden ">
         <SplineComponent />
-        <div className="min-h-screen relative z-10 font-[monospace] ">
+        <div className="min-h-screen relative z-10 font-[monospace] px-2">
           <div className="container mx-auto px-4 py-16">
             <div className="max-w-4xl mx-auto text-center">
               <div className="mt-12">
