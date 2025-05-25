@@ -6,14 +6,14 @@ import { motion } from "framer-motion";
 // https://prod.spline.design/jjqv5WzFTBqazsc7/scene.splinecode 3  only particals
 const SplineComponent = () => {
   return (
-    <main className="min-h-screen bg-transparent w-full overflow-hidden absolute z-[0] pointer-events-none">
+    <main className="min-h-screen bg-transparent w-full overflow-hidden absolute z-[-10] pointer-events-none">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 2, delay: 1 }}
       >
         <SplineNext
-          className="min-h-[100vh] w-full absolute ] z-[10] overflow-hidden hidden md:block bg-transparent"
+          className="min-h-[100vh] w-full absolute top-[6vh] z-[10] overflow-hidden bg-transparent"
           scene="https://prod.spline.design/t-5elAm01l5a21r2/scene.splinecode"
         />
       </motion.div>

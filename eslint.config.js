@@ -6,7 +6,14 @@ import pluginReact from "eslint-plugin-react";
 export default [
   // Ignore server directory to avoid conflicts
   {
-    ignores: ["server/**/*", "dist/**/*", "build/**/*", "node_modules/**/*"],
+    ignores: [
+      "server/**/*",
+      "dist/**/*",
+      "build/**/*",
+      "node_modules/**/*",
+      "public/**/*",
+      ".react-router/**/*",
+    ],
   },
 
   // Base configuration for all files
@@ -42,6 +49,14 @@ export default [
     },
     rules: {
       "react/react-in-jsx-scope": "off", // Not needed in React 17+
+    },
+  },
+
+  {
+    settings: {
+      react: {
+        version: "detect",
+      },
     },
   },
 ];
