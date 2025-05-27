@@ -11,7 +11,6 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@barba/core": "^2.10.3",
     "@clerk/clerk-react": "^5.31.6",
     "@gsap/react": "^2.1.2",
     "@radix-ui/react-slot": "^1.2.3",
@@ -22,7 +21,6 @@
     "axios": "^1.9.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "gsap": "^3.13.0",
     "isbot": "^5.1.27",
     "lucide-react": "^0.511.0",
     "motion": "^12.12.2",
