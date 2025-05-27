@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 // https://prod.spline.design/jjqv5WzFTBqazsc7/scene.splinecode 3  only particals
 const SplineComponent = () => {
   return (
-    <main className="min-h-screen bg-transparent w-full overflow-hidden absolute z-[-10] pointer-events-none">
+    <main className="min-h-full bg-transparent w-full overflow-hidden absolute z-[-10] pointer-events-none">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

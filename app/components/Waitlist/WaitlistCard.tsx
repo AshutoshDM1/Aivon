@@ -8,7 +8,7 @@ const WaitlistCard = () => {
   };
   return (
     <>
-      <div className="bg-white dark:bg-zinc-800 rounded-2xl shadow-xl p-8 md:p-12 sm:mt-[6rem] max-w-md mx-auto font-[system-ui]">
+      <div className="bg-white dark:bg-zinc-800 rounded-2xl shadow-xl max-w-md mx-auto font-[system-ui] p-8 py-9 mt-10">
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
           Join the Waitlist
         </h2>
@@ -31,7 +31,7 @@ const WaitlistCard = () => {
             />
           </div>
 
-          <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-200 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 cursor-pointer ">
+          <button className="w-full bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-200 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 cursor-pointer">
             Join Waitlist
           </button>
         </form>
