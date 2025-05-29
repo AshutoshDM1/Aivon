@@ -1,5 +1,11 @@
-const WorkspacePage = () => {
-  return <div>Workspace Page Content</div>;
-};
+import DocumentManager from '~/components/workspace/DocumentManager'
 
-export default WorkspacePage;
+const WorkspacePage = () => {
+  return (
+    <div className="h-full">
+      <DocumentManager />
+    </div>
+  )
+}
+
+export default WorkspacePage

@@ -1,18 +1,22 @@
 import { Outlet, useLocation } from "react-router";
-import Sidebar from "~/pages/Workspace/Sidebar";
-
+import { AppSidebar } from "~/pages/Workspace/Sidebar";
+import { SidebarProvider } from "~/components/ui/sidebar";
+import { SearchInterface } from "~/components/workspace/SearchInterface";
 const WorkspaceLayout = () => {
   const location = useLocation();
-  const isAtParentRoute = location.pathname === "/workspace" || location.pathname === "/workspace/";
-  
+  const isAtParentRoute =
+    location.pathname === "/workspace" || location.pathname === "/workspace/";
+
   return (
     <div className="flex h-screen">
-      <div className="w-1/6 bg-gray-400 pl-2">
-        <Sidebar />
-      </div>
-      <div className="w-5/6 bg-gray-100 ">
+      <SidebarProvider>
+        <AppSidebar />
+      </SidebarProvider>
+      <div className="w-full">
         {isAtParentRoute ? (
-          <div className="text-2xl font-bold p-4">Welcome to Workspace</div>
+          <div className="w-full text-2xl font-bold p-4">
+            <SearchInterface />
+          </div>
         ) : (
           <Outlet />
         )}
