@@ -137,7 +137,7 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
           {message}
         </h1>
         <p className="text-lg text-gray-600 dark:text-gray-300">{details}</p>
-        {error.status === 404 && (
+        {isRouteErrorResponse(error) && error.status === 404 && (
           <div className="py-6">
             <div className="text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 mb-4">
               404
